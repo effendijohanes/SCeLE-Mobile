@@ -13,8 +13,10 @@ namespace SCeLEMobile.Model
         protected readonly string _SceleURL = "152.118.148.91";
         
         protected string _Token;
-        protected string _Username;
-        protected string _Password;
+        protected string _Username = "jojoeffe";
+        protected string _Password = "passwordgw";
+
+        public Model() { }
 
         public Model(string Username, string Password)
         {
@@ -22,8 +24,6 @@ namespace SCeLEMobile.Model
             this._Password = Password;
         }
 
-
-        
         public void Login(){
             //lakukan koneksi disini
             WebClient client = new WebClient();

@@ -4,28 +4,39 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace SCeLEMobile.Model
 {
     class CalendarModel : Model
     {
-        public void FetchCalendar()
+        public Task<String> getCalendarString()
         {
-            WebClient client = new WebClient();
-            client.DownloadStringCompleted += client_DownloadStringCompleted;
+            base.Login();
+            
+            var tcs = new TaskCompletionSource<string>();
 
-            if(base.IsLoggedIn()){
-                string token = base._Token;
-                client.DownloadStringAsync(new Uri("http://" + base._SceleURL + "/webservice/rest/server.php?wstoken=" + token + "&wsfunction=core_calendar_get_calendar_events"));
-            }else{
-                //login
-            }
+            var client = new WebClient();
+            client.DownloadStringCompleted += (s, e) =>
+            {
+                if (e.Error == null)
+                {
+                    tcs.SetResult(e.Result);
+                }
+                else
+                {
+                    tcs.SetException(e.Error);
+                }
+            };
+
+            client.DownloadStringAsync(new Uri("http://" + base._SceleURL + "/webservice/rest/server.php?wstoken=" + base._Token + "&wsfunction=core_calendar_get_calendar_events"));
+            return tcs.Task;
         }
 
-        void client_DownloadStringCompleted(object sender, DownloadStringCompletedEventArgs e)
+        public void tehe()
         {
-            string hasil = e.Result;
-            
+            XmlSerializer x = new XmlSerializer(typeof (Object.CalenderItem));
+            //x.Deserialize()
         }
     }
 }

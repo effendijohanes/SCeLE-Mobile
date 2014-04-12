@@ -24,10 +24,15 @@ namespace SCeLEMobile
         // Load data for the ViewModel Items
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            Model.CalendarModel cm = new Model.CalendarModel();
+            String hasil = cm.getCalendarString().Result;
+            
             if (!App.ViewModel.IsDataLoaded)
             {
                 App.ViewModel.LoadData();
             }
+            Console.WriteLine("haha");
+
         }
     }
 }
