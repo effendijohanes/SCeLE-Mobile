@@ -7,6 +7,8 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using SCeLEMobile.Model;
+using RestSharp;
 
 namespace SCeLEMobile
 {
@@ -24,15 +26,14 @@ namespace SCeLEMobile
         // Load data for the ViewModel Items
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            Model.CalendarModel cm = new Model.CalendarModel();
-            String hasil = cm.getCalendarString().Result;
             
             if (!App.ViewModel.IsDataLoaded)
             {
                 App.ViewModel.LoadData();
             }
-            Console.WriteLine("haha");
 
+            UserModel userModel = new UserModel();
+            userModel.GetCurrentUser();
         }
     }
 }
