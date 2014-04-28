@@ -1,5 +1,4 @@
 ﻿using RestSharp;
-using SCeLEMobile.Object;
 using SCeLEMobile.Objek;
 using System;
 using System.Collections.Generic;
@@ -53,9 +52,6 @@ namespace SCeLEMobile.Model
                 });
                  */
 
-                helper();
-
-                System.Diagnostics.Debug.WriteLine(hasil);
 
                 return null;
             }
@@ -65,12 +61,7 @@ namespace SCeLEMobile.Model
             }
         }
 
-        private async void helper()
-        {
-            string url = String.Format("{0}/webservice/rest/server.php?wstoken={1}&wsfunction=core_webservice_get_site_info", ParentModel.SceleURL, ParentModel.GetTokenFromIsolatedStorage());
-            Task<string> xmlTask = ParentModel.DownloadXML(new Uri(url));
-            string hasil = await xmlTask;
-        }
+        
 
         public string hasil { get; set; }
     }

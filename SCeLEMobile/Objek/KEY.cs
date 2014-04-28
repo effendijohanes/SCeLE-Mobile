@@ -7,10 +7,13 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace DeserializeXML.Objek
+namespace SCeLEMobile.Objek
 {
     public class KEY
     {
+        [XmlElement("MULTIPLE")]
+        public MULTIPLE multiple { get; set; }
+        
         [XmlElement("VALUE")]
         public string VALUE { get; set; }
 

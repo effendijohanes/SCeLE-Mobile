@@ -44,17 +44,26 @@
 
             <!--Panorama item one-->
             <phone:PanoramaItem Header="Mata Kuliah">
+                
                 <!--Single line list with text wrapping-->
-                <phone:LongListSelector Margin="0,0,-22,0" ItemsSource="{Binding Items}">
+                <phone:LongListSelector Tap="longListEnrolledMK_Tap" ItemsSource="{Binding listEnrolledMK}" x:Name="longListEnrolledMK" Margin="0,0,-22,0">
                     <phone:LongListSelector.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Margin="0,-6,0,12">
-                                <TextBlock Text="{Binding LineOne}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}" FontSize="{StaticResource PhoneFontSizeExtraLarge}"/>
+                                <TextBlock Text="{Binding FullName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}" FontSize="{StaticResource PhoneFontSizeExtraLarge}"/>
                             </StackPanel>
                         </DataTemplate>
                     </phone:LongListSelector.ItemTemplate>
                 </phone:LongListSelector>
-                
+                <!--
+                <ListBox x:Name="lsbMataKuliah" ItemsSource="{Binding listEnrolledMK}">
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding FullName}"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox>
+                -->
             </phone:PanoramaItem>
 
             <!--Panorama item two-->

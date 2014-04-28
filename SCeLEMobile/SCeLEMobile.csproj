@@ -100,6 +100,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MataKuliahDetails.xaml.cs">
+      <DependentUpon>MataKuliahDetails.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\CalendarModel.cs" />
     <Compile Include="Model\IsolatedStorageAdapter.cs" />
     <Compile Include="Model\ParentModel.cs" />
@@ -107,6 +110,8 @@
     <Compile Include="Objek\BerkasMataKuliah.cs" />
     <Compile Include="Objek\Calendar.cs" />
     <Compile Include="Objek\CalenderItem.cs" />
+    <Compile Include="Objek\City.cs" />
+    <Compile Include="Objek\EnrolledMK.cs" />
     <Compile Include="Objek\KEY.cs" />
     <Compile Include="Objek\MataKuliah.cs" />
     <Compile Include="Objek\MataKuliahDetails.cs" />
@@ -140,6 +145,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </DesignData>
+    <Page Include="MataKuliahDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -177,9 +186,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
     <Reference Include="RestSharp.WindowsPhone">
       <HintPath>..\packages\RestSharp.104.4.0\lib\sl4-wp71\RestSharp.WindowsPhone.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helper\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

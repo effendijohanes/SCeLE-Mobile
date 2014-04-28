@@ -12,10 +12,5 @@ namespace SCeLEMobile.Model
     {
         
 
-        public void tehe()
-        {
-            XmlSerializer x = new XmlSerializer(typeof (Object.CalenderItem));
-            //x.Deserialize()
-        }
     }
 }

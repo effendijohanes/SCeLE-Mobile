@@ -7,12 +7,15 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.Collections;
 
-namespace DeserializeXML.Objek
+namespace SCeLEMobile.Objek
 {
     public class RESPONSE
     {
         [XmlElement("MULTIPLE")]
         public MULTIPLE multiple { get; set; }
+
+        [XmlElement("SINGLE")]
+        public List<SINGLE> single = new List<SINGLE>();
    
     }
 }
