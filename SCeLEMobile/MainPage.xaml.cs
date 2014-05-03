@@ -33,15 +33,12 @@ namespace SCeLEMobile
         // Load data for the ViewModel Items
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            
+
             if (!App.ViewModel.IsDataLoaded)
             {
                 App.ViewModel.LoadData();
             }
-
-
             userInfoXMLHelper();
-            
         }
 
         private async void userInfoXMLHelper()
@@ -81,10 +78,10 @@ namespace SCeLEMobile
             {
                 listEnrolledMK.Add(new EnrolledMK(s));
             }
-            
+
             longListEnrolledMK.ItemsSource = listEnrolledMK;
             this.LayoutRoot.UpdateLayout();
-            
+
             Console.WriteLine("haha");
         }
 

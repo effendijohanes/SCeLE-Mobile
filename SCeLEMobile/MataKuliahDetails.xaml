@@ -16,14 +16,11 @@
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <!--Pivot Control-->
+
         <phone:Pivot x:Name="pvtMataKuliah" Title="NAMA MATA KULIAH">
+            
             <!--Pivot item one-->
             <phone:PivotItem Header="sect1">
-                <Grid/>
-            </phone:PivotItem>
-
-            <!--Pivot item two-->
-            <phone:PivotItem Header="sect2">
                 <Grid/>
             </phone:PivotItem>
         </phone:Pivot>

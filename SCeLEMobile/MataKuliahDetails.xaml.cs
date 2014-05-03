@@ -13,15 +13,19 @@ using System.Xml;
 using System.IO;
 using System.Xml.Serialization;
 using SCeLEMobile.Objek;
+using System.Collections.ObjectModel;
 
 namespace SCeLEMobile
 {
     public partial class MataKuliahDetails : PhoneApplicationPage
     {
+        List<PivotItem> pivotItems = new List<PivotItem>();
+        ObservableCollection<SectionMataKuliah> mkSections = new ObservableCollection<SectionMataKuliah>();
         public MataKuliahDetails()
         {
             InitializeComponent();
-            
+
+            DataContext = mkSections;
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -44,6 +48,23 @@ namespace SCeLEMobile
             XmlReader reader = XmlReader.Create(new StringReader(hasil));
             XmlSerializer mySerializer = new XmlSerializer(typeof(RESPONSE));
             RESPONSE f = mySerializer.Deserialize(reader) as RESPONSE;
+
+            foreach (SINGLE s in f.multiple.single)
+            {
+                mkSections.Add(new SectionMataKuliah(s));
+            }
+
+            foreach (SectionMataKuliah smk in mkSections)
+            {
+                PivotItem pvtSection = new PivotItem();
+                pvtSection.DataContext = smk;
+                pivotItems.Add(pvtSection);
+            }
+
+            pvtMataKuliah.ItemsSource = pivotItems;
+
+            this.LayoutRoot.UpdateLayout();
+            
 
         }
     }

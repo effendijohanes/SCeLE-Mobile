@@ -113,8 +113,8 @@
     <Compile Include="Objek\City.cs" />
     <Compile Include="Objek\EnrolledMK.cs" />
     <Compile Include="Objek\KEY.cs" />
-    <Compile Include="Objek\MataKuliah.cs" />
-    <Compile Include="Objek\MataKuliahDetails.cs" />
+    <Compile Include="Objek\SectionMataKuliah.cs" />
+    <Compile Include="Objek\ModuleMK.cs" />
     <Compile Include="Objek\MULTIPLE.cs" />
     <Compile Include="Objek\RESPONSE.cs" />
     <Compile Include="Objek\SINGLE.cs" />
