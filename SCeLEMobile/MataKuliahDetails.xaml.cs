@@ -44,7 +44,7 @@ namespace SCeLEMobile
             mkSections = new ObservableCollection<SectionMataKuliah>();
             string id = NavigationContext.QueryString["id"];
             getMataKuliahDetailsHelper(id);
-            getForumInCourse(id);
+            //getForumInCourse(id);
         }
 
         private async void getForumInCourse(string id)
@@ -200,7 +200,7 @@ namespace SCeLEMobile
         private void lstItemsToList_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
         {
             //handle navigation from TOC to pivots
-            //pivotMainList.SelectedIndex = lstItemsToList.SelectedIndex + 1;
+            pivotMainList.SelectedIndex = lstItemsToList.SelectedIndex + 1;
         }
     }
 }
