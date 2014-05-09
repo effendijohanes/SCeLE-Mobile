@@ -44,7 +44,7 @@ namespace SCeLEMobile
 
             using (IsolatedStorageFile storageFile = IsolatedStorageFile.GetUserStoreForApplication())
             {
-                using (IsolatedStorageFileStream stream = storageFile.OpenFile(temp, FileMode.Create))
+                using (IsolatedStorageFileStream stream = storageFile.OpenFile(temp, FileMode.OpenOrCreate))
                 {
                     await stream.WriteAsync(buffer, 0, buffer.Length);
                 }
@@ -65,7 +65,7 @@ namespace SCeLEMobile
             //ListBoxItem lbi = lb.SelectedItem as ListBoxItem;
             ModuleContent mc = lb.SelectedItem as ModuleContent;
             temp = mc.FileName;
-
+            
             WebClient client = new WebClient();
             client.OpenReadCompleted += client_OpenReadCompleted;
             client.OpenReadAsync(new Uri(mc.FileURL + "&token=" + ParentModel.GetTokenFromIsolatedStorage()));
