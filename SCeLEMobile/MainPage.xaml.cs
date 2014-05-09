@@ -25,7 +25,7 @@ namespace SCeLEMobile
         public MainPage()
         {
             InitializeComponent();
-
+            //kahsdgjahsgdjas
             // Set the data context of the listbox control to the sample data
             DataContext = listEnrolledMK;
             userInfoXMLHelper();
