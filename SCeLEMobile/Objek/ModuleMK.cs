@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media.Imaging;
 
 namespace SCeLEMobile.Objek
 {
@@ -36,6 +38,7 @@ namespace SCeLEMobile.Objek
                 else if (k.name.Equals("modicon"))
                 {
                     ModIcon = k.VALUE;
+                    Image = new BitmapImage(new Uri(ModIcon));
                 }
                 else if (k.name.Equals("modname"))
                 {
@@ -59,7 +62,28 @@ namespace SCeLEMobile.Objek
                 }
                 else if (k.name.Equals("contents"))
                 {
-                    Contents = k.VALUE;
+                    foreach (SINGLE ss in k.multiple.single)
+                    {
+                        Contents.Add(new ModuleContent(ss));
+                    }
+                }
+            }
+        }
+
+
+        private BitmapImage _image;
+        public BitmapImage Image
+        {
+            get
+            {
+                return _image;
+            }
+            set
+            {
+                if (value != _image)
+                {
+                    _image = value;
+                    NotifyPropertyChanged("Image");
                 }
             }
         }
@@ -251,8 +275,8 @@ namespace SCeLEMobile.Objek
             }
         }
 
-        private string _contents;
-        public string Contents
+        private ObservableCollection<ModuleContent> _contents = new ObservableCollection<ModuleContent>();
+        public ObservableCollection<ModuleContent> Contents
         {
             get
             {

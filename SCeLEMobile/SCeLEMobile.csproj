@@ -93,6 +93,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DaftarBerkasMK.xaml.cs">
+      <DependentUpon>DaftarBerkasMK.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
@@ -107,12 +110,13 @@
     <Compile Include="Model\IsolatedStorageAdapter.cs" />
     <Compile Include="Model\ParentModel.cs" />
     <Compile Include="Model\UserModel.cs" />
-    <Compile Include="Objek\BerkasMataKuliah.cs" />
     <Compile Include="Objek\Calendar.cs" />
     <Compile Include="Objek\CalenderItem.cs" />
     <Compile Include="Objek\City.cs" />
     <Compile Include="Objek\EnrolledMK.cs" />
+    <Compile Include="Objek\ForumByCourse.cs" />
     <Compile Include="Objek\KEY.cs" />
+    <Compile Include="Objek\ModuleContent.cs" />
     <Compile Include="Objek\SectionMataKuliah.cs" />
     <Compile Include="Objek\ModuleMK.cs" />
     <Compile Include="Objek\MULTIPLE.cs" />
@@ -133,6 +137,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="DaftarBerkasMK.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -159,6 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\PanoramaBackground.png" />
+    <Content Include="ApplicationIcon.png" />
     <Content Include="Assets\AlignmentGrid.png" />
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

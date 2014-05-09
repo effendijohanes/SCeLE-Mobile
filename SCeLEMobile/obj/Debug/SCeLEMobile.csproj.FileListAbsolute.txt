@@ -42,3 +42,4 @@ D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\XapCacheFile.xml
 D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Microsoft.Phone.Controls.dll
 D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\MataKuliahDetails.g.cs
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarBerkasMK.g.cs

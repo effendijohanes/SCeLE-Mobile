@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
@@ -129,8 +130,8 @@ namespace SCeLEMobile.Objek
             }
         }
 
-        private List<ModuleMK> _modules;
-        public List<ModuleMK> Modules
+        private ObservableCollection<ModuleMK> _modules = new ObservableCollection<ModuleMK>();
+        public ObservableCollection<ModuleMK> Modules
         {
             get
             {
@@ -141,7 +142,7 @@ namespace SCeLEMobile.Objek
                 if (value != _modules)
                 {
                     _modules = value;
-                    //NotifyPropertyChanged("Modules");
+                    NotifyPropertyChanged("Modules");
                 }
             }
         }

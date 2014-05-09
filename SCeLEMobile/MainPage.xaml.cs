@@ -28,6 +28,7 @@ namespace SCeLEMobile
 
             // Set the data context of the listbox control to the sample data
             DataContext = listEnrolledMK;
+            userInfoXMLHelper();
         }
 
         // Load data for the ViewModel Items
@@ -38,7 +39,7 @@ namespace SCeLEMobile
             {
                 App.ViewModel.LoadData();
             }
-            userInfoXMLHelper();
+            
         }
 
         private async void userInfoXMLHelper()

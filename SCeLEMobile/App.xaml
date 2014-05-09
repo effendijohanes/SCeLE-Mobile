@@ -17,6 +17,13 @@
         </Style>
         
         <local:LocalizedStrings xmlns:local="clr-namespace:SCeLEMobile" x:Key="LocalizedStrings"/>
+
+        <ControlTemplate x:Key="ModuleMKTemplate" TargetType="ListBoxItem">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="60" Width="60" Margin="0,0,0,0" Source="{Binding ModIcon}" HorizontalAlignment="Center" />
+                <TextBlock Margin="0,10,0,10" Text="{Binding Path=Name}" Style="{StaticResource PhoneTextLargeStyle}"></TextBlock>
+            </StackPanel>
+        </ControlTemplate>
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>
@@ -25,5 +32,7 @@
             Launching="Application_Launching" Closing="Application_Closing" 
             Activated="Application_Activated" Deactivated="Application_Deactivated"/>
     </Application.ApplicationLifetimeObjects>
+
+    
 
 </Application>
