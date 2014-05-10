@@ -1,0 +1,9 @@
+*.suo
+*.dll
+*.pdb
+*.xap
+SCeLEMobile/obj/Debug/App.g.cs
+SCeLEMobile/obj/Debug/SCeLEMobile.csproj.GenerateResource.Cache
+SCeLEMobile/obj/Debug/MataKuliahDetails.g.cs
+SCeLEMobile/obj/Debug/MainPage.g.cs
+SCeLEMobile/obj/Debug/LoginPage.g.cs
