@@ -70,3 +70,4 @@ D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.dll
 D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.pdb
 D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\XapCacheFile.xml
 D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarThread.g.cs
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarPost.g.cs

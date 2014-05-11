@@ -96,6 +96,9 @@
     <Compile Include="DaftarBerkasMK.xaml.cs">
       <DependentUpon>DaftarBerkasMK.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DaftarPost.xaml.cs">
+      <DependentUpon>DaftarPost.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DaftarThread.xaml.cs">
       <DependentUpon>DaftarThread.xaml</DependentUpon>
     </Compile>
@@ -120,6 +123,7 @@
     <Compile Include="Objek\ForumByCourse.cs" />
     <Compile Include="Objek\KEY.cs" />
     <Compile Include="Objek\ModuleContent.cs" />
+    <Compile Include="Objek\PostMK.cs" />
     <Compile Include="Objek\SectionMataKuliah.cs" />
     <Compile Include="Objek\ModuleMK.cs" />
     <Compile Include="Objek\MULTIPLE.cs" />
@@ -143,6 +147,10 @@
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
     <Page Include="DaftarBerkasMK.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DaftarPost.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -211,6 +219,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
