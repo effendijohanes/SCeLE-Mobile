@@ -1,0 +1,4 @@
+D:\Documents\GitHub\SCeLE-Mobile\ForumUpdater\Bin\Debug\ForumUpdater.dll
+D:\Documents\GitHub\SCeLE-Mobile\ForumUpdater\Bin\Debug\ForumUpdater.pdb
+D:\Documents\GitHub\SCeLE-Mobile\ForumUpdater\obj\Debug\ForumUpdater.dll
+D:\Documents\GitHub\SCeLE-Mobile\ForumUpdater\obj\Debug\ForumUpdater.pdb

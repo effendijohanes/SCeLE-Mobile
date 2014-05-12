@@ -1,0 +1,13 @@
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\App.g.cs
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarBerkasMK.g.cs
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarPost.g.cs
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarThread.g.cs
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\LoginPage.g.cs
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\MainPage.g.cs
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\MataKuliahDetails.g.cs
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.g.resources
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.Resources.AppResources.resources
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.csproj.GenerateResource.Cache
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.dll
+D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.pdb

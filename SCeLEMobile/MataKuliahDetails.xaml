@@ -41,7 +41,7 @@
         <controls:Pivot Title="" Name="pivotMainList">
             <controls:PivotItem Header="Dynamic pivots" Name="titleToday">
                 <Grid>
-                    <ListBox  Canvas.Left="8" Canvas.Top="80" ItemsSource="{Binding Items}" Name="lstItemsToList" Width="418" Margin="0,-5,7,-14" SelectionChanged="lstItemsToList_SelectionChanged_1">
+                    <ListBox x:Name="lstItemsToList"  Canvas.Left="8" Canvas.Top="80" ItemsSource="{Binding Items}" Name="lstItemsToList" Width="418" Margin="0,-5,7,-14" SelectionChanged="lstItemsToList_SelectionChanged_1">
                         <ListBox.ItemTemplate >
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
