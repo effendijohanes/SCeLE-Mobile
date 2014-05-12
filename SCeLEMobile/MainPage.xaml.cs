@@ -8,7 +8,6 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using SCeLEMobile.Model;
-using RestSharp;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
@@ -162,6 +161,11 @@ namespace SCeLEMobile
             EnrolledMK emk = lls.SelectedItem as EnrolledMK;
 
             NavigationService.Navigate(new Uri("/MataKuliahDetails.xaml?id=" + emk.Id, UriKind.Relative));
+        }
+
+        private void Border_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/NotifikasiKalender.xaml", UriKind.Relative));
         }
     }
 }
