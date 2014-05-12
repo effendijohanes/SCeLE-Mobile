@@ -15,7 +15,13 @@
             <Setter Property="FontSize" Value="{StaticResource PanoramaItemHeaderFontSize}"/>
             <Setter Property="CharacterSpacing" Value="-35"/>
         </Style>
-        
+
+        <DataTemplate x:Key="SceleHeaderTemplate">
+            <StackPanel>
+                <TextBlock Text="{Binding}" Foreground="Gray" FontSize="{StaticResource PanoramaItemHeaderFontSize}" FontFamily="{StaticResource PhoneFontFamilySemiLight}" CharacterSpacing="-35"/>
+            </StackPanel>
+        </DataTemplate>
+
         <local:LocalizedStrings xmlns:local="clr-namespace:SCeLEMobile" x:Key="LocalizedStrings"/>
 
         <ControlTemplate x:Key="ModuleMKTemplate" TargetType="ListBoxItem">
