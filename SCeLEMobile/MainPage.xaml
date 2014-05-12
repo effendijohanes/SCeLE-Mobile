@@ -37,13 +37,13 @@
          -->
 
          <!--Panorama control-->
-        <phone:Panorama Title="my application">
+        <phone:Panorama Title="SCeLE Mobile">
             <phone:Panorama.Background>
-                <ImageBrush ImageSource="/SCeLEMobile;component/Assets/PanoramaBackground.png"/>
+                <ImageBrush ImageSource="/Assets/scele_background.png"/>
             </phone:Panorama.Background>
 
             <!--Panorama item one-->
-            <phone:PanoramaItem Header="Mata Kuliah">
+            <phone:PanoramaItem Header="Mata Kuliah" HeaderTemplate="{StaticResource SceleHeaderTemplate}">
                 
                 <!--Single line list with text wrapping-->
                 <phone:LongListSelector Tap="longListEnrolledMK_Tap" ItemsSource="{Binding listEnrolledMK}" x:Name="longListEnrolledMK" Margin="0,0,-22,0">
@@ -67,7 +67,7 @@
             </phone:PanoramaItem>
 
             <!--Panorama item two-->
-            <phone:PanoramaItem>
+            <phone:PanoramaItem Header="Pengumuman" Orientation="Horizontal" HeaderTemplate="{StaticResource SceleHeaderTemplate}">
                 <!--Double line list with image placeholder and text wrapping using a floating header that scrolls with the content-->
                 <ListBox x:Name="lstThread" Tap="list_Thread_Tap">
                     <ListBox.ItemTemplate>
@@ -91,7 +91,7 @@
             </phone:PanoramaItem>
 
             <!--Panorama item three-->
-            <phone:PanoramaItem Header="Notifikasi" Orientation="Horizontal">
+            <phone:PanoramaItem Header="Notifikasi" Orientation="Horizontal" HeaderTemplate="{StaticResource SceleHeaderTemplate}">
                 <!--Double wide Panorama with large image placeholders-->
                 <Grid>
                     <StackPanel Margin="0,4,16,0" Orientation="Vertical" VerticalAlignment="Top">
