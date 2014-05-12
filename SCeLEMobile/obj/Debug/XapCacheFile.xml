@@ -1,0 +1,16 @@
+﻿<xapCache source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\SCeLEMobile_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="5/12/2014 8:53:21 PM">
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.dll" archivePath="SCeLEMobile.dll" lastWriteTime="5/12/2014 8:53:18 PM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2/18/2012 11:14:10 PM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="4/8/2014 4:10:30 AM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="4/8/2014 4:10:30 AM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="4/8/2014 4:10:30 AM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="4/8/2014 4:10:30 AM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="4/8/2014 4:10:30 AM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="5/12/2014 8:53:20 PM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="4/8/2014 4:10:30 AM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="4/8/2014 4:10:30 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="1/1/2013 6:57:00 PM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\packages\RestSharp.104.4.0\lib\sl4-wp71\RestSharp.WindowsPhone.dll" archivePath="RestSharp.WindowsPhone.dll" lastWriteTime="4/25/2014 9:52:23 PM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\packages\RestSharp.104.4.0\lib\sl4-wp71\RestSharp.WindowsPhone.xml" archivePath="RestSharp.WindowsPhone.xml" lastWriteTime="4/25/2014 9:52:23 PM" />
+  <file source="D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="5/12/2014 8:53:21 PM" />
+</xapCache>

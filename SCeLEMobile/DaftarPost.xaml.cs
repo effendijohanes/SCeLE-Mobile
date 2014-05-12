@@ -15,6 +15,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.IO;
 using System.Windows.Media.Imaging;
+using SCeLEMobile.Resources;
 
 namespace SCeLEMobile
 {
@@ -98,6 +99,21 @@ namespace SCeLEMobile
         private void list_Post_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
 
+        }
+
+        private void BuildLocalizedApplicationBar()
+        {
+            // Set the page's ApplicationBar to a new instance of ApplicationBar.
+            ApplicationBar = new ApplicationBar();
+
+            // Create a new button and set the text value to the localized string from AppResources.
+            ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/appbar.add.rest.png", UriKind.Relative));
+            appBarButton.Text = "halo";
+            ApplicationBar.Buttons.Add(appBarButton);
+
+            // Create a new menu item with the localized string from AppResources.
+            ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem("hai");
+            ApplicationBar.MenuItems.Add(appBarMenuItem);
         }
     }
 }

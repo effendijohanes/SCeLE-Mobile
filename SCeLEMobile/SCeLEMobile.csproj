@@ -102,6 +102,7 @@
     <Compile Include="DaftarThread.xaml.cs">
       <DependentUpon>DaftarThread.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Helper\PeriodicTaskConfigure.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
@@ -217,9 +218,7 @@
       <HintPath>..\packages\RestSharp.104.4.0\lib\sl4-wp71\RestSharp.WindowsPhone.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helper\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
