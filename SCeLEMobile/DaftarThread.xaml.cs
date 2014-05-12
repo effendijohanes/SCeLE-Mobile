@@ -33,6 +33,7 @@ namespace SCeLEMobile
         {
             string id = NavigationContext.QueryString["id"];
             getThreadsinForum(id);
+            TxbKecil.Text = NavigationContext.QueryString["namaforum"];
         }
 
         private async void getThreadsinForum(string id)

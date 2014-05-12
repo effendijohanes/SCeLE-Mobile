@@ -203,7 +203,7 @@ namespace SCeLEMobile
 
                 if (idTerpilih != null && !idTerpilih.Equals(""))
                 {
-                    NavigationService.Navigate(new Uri("/DaftarThread.xaml?id=" + idTerpilih, UriKind.Relative));
+                    NavigationService.Navigate(new Uri("/DaftarThread.xaml?id=" + idTerpilih + "&namaforum=" + mmk.Name, UriKind.Relative));
                 }
 
             }

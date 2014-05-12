@@ -38,11 +38,15 @@ namespace SCeLEMobile.Objek
                 else if (k.name.Equals("modicon"))
                 {
                     ModIcon = k.VALUE;
-                    Image = new BitmapImage(new Uri(ModIcon));
+                    //Image = new BitmapImage(new Uri(ModIcon));
                 }
                 else if (k.name.Equals("modname"))
                 {
                     ModName = k.VALUE;
+                    if (ModName.Equals("forum"))
+                    {
+                        Image = new BitmapImage(new Uri("/Assets/ApplicationIcon.png", UriKind.Relative));
+                    }
                 }
                 else if (k.name.Equals("modplural"))
                 {
