@@ -1,76 +1,3 @@
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\Assets\ApplicationIcon.png
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\Assets\Tiles\IconicTileSmall.png
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\SCeLEMobile.dll
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\SCeLEMobile.pdb
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\AppManifest.xaml
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\Properties\WMAppManifest.xml
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\Bin\Debug\SCeLEMobile_Debug_AnyCPU.xap
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\obj\Debug\App.g.cs
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\obj\Debug\MainPage.g.cs
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\obj\Debug\SCeLEMobile.g.resources
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\obj\Debug\SCeLEMobile.Resources.AppResources.resources
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\obj\Debug\SCeLEMobile.csproj.GenerateResource.Cache
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\obj\Debug\SCeLEMobile.dll
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\obj\Debug\SCeLEMobile.pdb
-D:\Documents\Visual Studio 2013\Projects\SCeLEMobile\SCeLEMobile\obj\Debug\XapCacheFile.xml
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\ApplicationIcon.png
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\IconicTileSmall.png
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\SCeLEMobile.dll
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\SCeLEMobile.pdb
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\AppManifest.xaml
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Properties\WMAppManifest.xml
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\SCeLEMobile_Debug_AnyCPU.xap
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Microsoft.Phone.Controls.dll
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\RestSharp.WindowsPhone.dll
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\RestSharp.WindowsPhone.xml
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.csprojResolveAssemblyReference.cache
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\App.g.cs
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarBerkasMK.g.cs
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\LoginPage.g.cs
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\MainPage.g.cs
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\MataKuliahDetails.g.cs
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.g.resources
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.Resources.AppResources.resources
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.csproj.GenerateResource.Cache
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.dll
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.pdb
-C:\Users\Jouvy\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\XapCacheFile.xml
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\ApplicationIcon.png
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\IconicTileSmall.png
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\SCeLEMobile.dll
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\SCeLEMobile.pdb
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\AppManifest.xaml
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Properties\WMAppManifest.xml
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\SCeLEMobile_Debug_AnyCPU.xap
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Microsoft.Phone.Controls.dll
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\RestSharp.WindowsPhone.dll
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\RestSharp.WindowsPhone.xml
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.csprojResolveAssemblyReference.cache
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\App.g.cs
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarBerkasMK.g.cs
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\LoginPage.g.cs
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\MainPage.g.cs
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\MataKuliahDetails.g.cs
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.g.resources
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.Resources.AppResources.resources
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.csproj.GenerateResource.Cache
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.dll
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.pdb
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\XapCacheFile.xml
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarThread.g.cs
-D:\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarPost.g.cs
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\ApplicationIcon.png
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
@@ -85,6 +12,7 @@ C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\SCeLEMobile_
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\Microsoft.Phone.Controls.dll
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\RestSharp.WindowsPhone.dll
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\Bin\Debug\RestSharp.WindowsPhone.xml
+C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.csprojResolveAssemblyReference.cache
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\App.g.cs
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarBerkasMK.g.cs
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\DaftarPost.g.cs
@@ -98,4 +26,3 @@ C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.dll
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.pdb
 C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\XapCacheFile.xml
-C:\Users\AriefR\Documents\GitHub\SCeLE-Mobile\SCeLEMobile\obj\Debug\SCeLEMobile.csprojResolveAssemblyReference.cache
