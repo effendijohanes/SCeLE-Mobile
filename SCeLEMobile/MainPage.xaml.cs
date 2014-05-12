@@ -162,5 +162,10 @@ namespace SCeLEMobile
 
             NavigationService.Navigate(new Uri("/MataKuliahDetails.xaml?id=" + emk.Id, UriKind.Relative));
         }
+
+        private void Border_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/NotifikasiKalender.xaml", UriKind.Relative));
+        }
     }
 }

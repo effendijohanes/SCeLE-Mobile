@@ -117,6 +117,9 @@
     <Compile Include="Model\IsolatedStorageAdapter.cs" />
     <Compile Include="Model\ParentModel.cs" />
     <Compile Include="Model\UserModel.cs" />
+    <Compile Include="NotifikasiKalender.xaml.cs">
+      <DependentUpon>NotifikasiKalender.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Objek\Calendar.cs" />
     <Compile Include="Objek\CalenderItem.cs" />
     <Compile Include="Objek\City.cs" />
@@ -172,6 +175,10 @@
       <SubType>Designer</SubType>
     </DesignData>
     <Page Include="MataKuliahDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NotifikasiKalender.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
